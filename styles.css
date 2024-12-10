@@ -1,0 +1,64 @@
+body {
+    background-color: #17b88d;
+    /* Светлый фон */
+    font-family: Arial, sans-serif;
+    /* Шрифт */
+}
+
+h1 {
+    color: rgb(255, 47, 0);
+    /* Красный цвет текста для заголовка */
+    text-align: center;
+    /* Центрируем текст */
+}
+
+p {
+    color: rgb(58, 0, 128);
+    /* Фиолетовыйцвет текста для абзаца */
+    font-size: 20px;
+    /* Размер шрифта */
+    line-height: 1.5;
+    text-align: left;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    float: left;
+    text-align: center;
+    margin: 5 px;
+    padding: 5px;
+
+}
+
+#info1 {
+    background-color: rgb(225, 255, 0);
+}
+
+#info2 {
+    background-color: rgb(128, 0, 111);
+}
+
+#info3 {
+    background-color: rgb(0, 2, 128);
+}
+
+.my_button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.my_button:hover {
+    background-color: #b30009;
+}
+
+.my_button:active {
+    background-color: #098500;
+    transform: scale(0.95);
+}
